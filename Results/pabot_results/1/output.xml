@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231124 15:59:49.957" rpa="false" schemaversion="4">
+<suite id="s1" name="Examples" source="C:\Users\ak213\Documents\BeginnersGuide\Examples">
+<suite id="s1-s1" name="My Second" source="C:\Users\ak213\Documents\BeginnersGuide\Examples\my_second.robot">
+<test id="s1-s1-t1" name="My Second Robot Test" line="6">
+<kw name="Create File" library="OperatingSystem">
+<arg>new_file.txt</arg>
+<arg>Hello World!</arg>
+<doc>Creates a file with the given content and encoding.</doc>
+<msg timestamp="20231124 15:59:50.019" level="INFO" html="true">Created file '&lt;a href="file://C:\Users\ak213\Documents\BeginnersGuide\new_file.txt"&gt;C:\Users\ak213\Documents\BeginnersGuide\new_file.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20231124 15:59:50.004" endtime="20231124 15:59:50.019"/>
+</kw>
+<tag>my_second</tag>
+<status status="PASS" starttime="20231124 15:59:50.004" endtime="20231124 15:59:50.019"/>
+</test>
+<status status="PASS" starttime="20231124 15:59:50.004" endtime="20231124 15:59:50.019"/>
+</suite>
+<status status="PASS" starttime="20231124 15:59:49.973" endtime="20231124 15:59:50.019"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">my_second</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Examples">Examples</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="My Second">Examples.My Second</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -74,7 +74,7 @@ else ifeq ($(OS_NAME),LINUX)
 	sudo apt-get update && sudo apt-get install -y wget curl unzip python3.10 python3-pip python3.10-venv
 	python3.10 -m venv $(VENV)
 else
-	choco install -y python3 --version=3.10.11 --force
+	choco install -y python3 --version=3.12 --force
 	py -m venv $(VENV)
 endif
 	$(PYTHON) -m pip install --upgrade pip

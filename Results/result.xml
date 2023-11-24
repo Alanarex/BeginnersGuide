@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Examples" tests="3" errors="0" failures="0" skipped="0" time="1.550" timestamp="2023-11-24T15:59:48.860000">
+<testsuite name="My First" tests="1" errors="0" failures="0" skipped="0" time="0.000" timestamp="2023-11-24T15:59:49.988000">
+<testcase classname="Examples.My First" name="My First Robot Test" time="0.000">
+</testcase>
+</testsuite>
+<testsuite name="My Second" tests="1" errors="0" failures="0" skipped="0" time="0.015" timestamp="2023-11-24T15:59:50.004000">
+<testcase classname="Examples.My Second" name="My Second Robot Test" time="0.015">
+</testcase>
+</testsuite>
+<testsuite name="My Third" tests="1" errors="0" failures="0" skipped="0" time="0.016" timestamp="2023-11-24T15:59:49.988000">
+<testcase classname="Examples.My Third" name="My Third Robot Test" time="0.016">
+</testcase>
+</testsuite>
+<properties>
+<property name="Documentation" value="[https://pabot.org/?ref=log|Pabot] result from 3 executions."/>
+</properties>
+</testsuite>

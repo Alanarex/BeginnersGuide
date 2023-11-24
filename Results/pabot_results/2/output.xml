@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231124 15:59:49.957" rpa="false" schemaversion="4">
+<suite id="s1" name="Examples" source="C:\Users\ak213\Documents\BeginnersGuide\Examples">
+<suite id="s1-s1" name="My Third" source="C:\Users\ak213\Documents\BeginnersGuide\Examples\my_third.robot">
+<test id="s1-s1-t1" name="My Third Robot Test" line="10">
+<kw name="Create File" library="OperatingSystem">
+<arg>new_file.txt</arg>
+<arg>${GOOD_TEXT}</arg>
+<doc>Creates a file with the given content and encoding.</doc>
+<msg timestamp="20231124 15:59:50.004" level="INFO" html="true">Created file '&lt;a href="file://C:\Users\ak213\Documents\BeginnersGuide\new_file.txt"&gt;C:\Users\ak213\Documents\BeginnersGuide\new_file.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20231124 15:59:49.988" endtime="20231124 15:59:50.004"/>
+</kw>
+<kw name="File Should Not Be Empty" library="OperatingSystem">
+<arg>new_file.txt</arg>
+<doc>Fails if the specified file is empty.</doc>
+<msg timestamp="20231124 15:59:50.004" level="INFO" html="true">File '&lt;a href="file://C:\Users\ak213\Documents\BeginnersGuide\new_file.txt"&gt;C:\Users\ak213\Documents\BeginnersGuide\new_file.txt&lt;/a&gt;' contains 18 bytes.</msg>
+<status status="PASS" starttime="20231124 15:59:50.004" endtime="20231124 15:59:50.004"/>
+</kw>
+<tag>my_third</tag>
+<status status="PASS" starttime="20231124 15:59:49.988" endtime="20231124 15:59:50.004"/>
+</test>
+<status status="PASS" starttime="20231124 15:59:49.988" endtime="20231124 15:59:50.004"/>
+</suite>
+<status status="PASS" starttime="20231124 15:59:49.957" endtime="20231124 15:59:50.004"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">my_third</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Examples">Examples</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="My Third">Examples.My Third</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,7 @@
+datasources:c60bfc96ba63020be26b443a3b6067cbd080d7fe
+commandlineoptions:54e8890da5649f547114d3b2de4636557402fc01
+suitesfrom:no-suites-from-option
+file:6a2c75755a7aaf20007fb70f3f665bde68241210
+--suite Examples.My First
+--suite Examples.My Second
+--suite Examples.My Third
